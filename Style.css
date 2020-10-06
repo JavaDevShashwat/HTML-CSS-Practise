@@ -1,0 +1,284 @@
+body{
+  margin:0;
+  background-image: url("pexels-min-an-813269.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+header{
+  background-color: black;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+p{
+  color: white;
+}
+a:link{
+  text-decoration:none;
+}
+a:active{
+  color: #d7385e;
+}
+a:visited{
+    color: #d7385e;
+}
+li{
+  margin: 5px;
+}
+h1{
+  font-family: sans-serif;
+  text-align: center;
+}
+input[type=submit] {
+  background-color: #d7385e;
+  border: none;
+  color: white;
+  font-family:Arial;
+  font-size: 18px;
+	font-weight:bold;
+	padding:19px 19px;
+  text-decoration: none;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+/*____________________________________________________   Classes Designing  ______________________________________________________________________*/
+.site-header{
+  position: relative;
+  margin: 0;
+  height: 115px;
+  width: 100%;
+  font-family: sans-serif;
+}
+.know-the-galaxy-main-div{
+  width:30%;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  bottom: 25px;
+  left: 20px;
+  font-size: 1.2rem;
+}
+.about-site{
+  display: inline-block;
+  margin: 5px;
+  color: white;
+  font-size: 1.5625rem;
+}
+.about-nasa{
+  display: inline-block;
+  margin: 5px;
+}
+.about-nasa p{
+  color: #aaaaaa;
+}
+.main-menu{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+    font-size: 1.2rem;
+  top: 25px;
+  bottom: 25px;
+  width: 40%
+}
+.nav li{
+  display: inline-block;
+
+}
+.hover-line a:link{
+  text-decoration: none;
+  color: #d7385e;
+}
+.hover-line a:hover{
+  text-decoration: underline;
+  color: #d7385e;
+}
+.hover-noline a:link{
+  text-decoration: underline;
+  color: #d7385e;
+}
+.hover-noline a:hover{
+  text-decoration: none;
+  color: #d7385e;
+}
+.about-site a:link{
+  text-decoration: none;
+}
+.about-site a:hover{
+  text-decoration: underline;
+}
+.main-body-div{
+  position: relative;
+}
+
+/* Body Designing*/
+.main-body-div{
+  position: relative;
+  margin: 0;
+}
+/*.background-image{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}*/
+.bold-heading{
+  position: relative;
+  margin: auto;
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 6em;
+  text-align: center;
+
+}
+.content-1{
+  position: relative;
+  top:auto;
+  width: 95%;
+  margin: 100px auto 100px auto;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: 'Piazzolla', serif;
+  line-height: 1.5;
+
+}
+.myButton {
+  position: relative;
+	background-color:#d7385d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:19px 19px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#d7385d;
+  text-decoration: underline;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.content-1-img{
+  position: relative;
+  width:600px;
+  height:400px;
+  margin: 0 30px 0 0;
+
+}
+.content-2{
+  position: relative;
+  top:auto;
+  width: 95%;
+  margin: 200px auto 100px auto;
+  color: white;
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: 'Piazzolla', serif;
+  line-height: 1.5;
+}
+
+.Articles{
+  text-align: center;
+}
+.article-div{
+  position: relative;
+  display: inline-block;
+  margin: 100px;
+}
+.article-div img{
+  height: 400px;
+  width: 400px;
+}
+.contact{
+  color: white;
+  font-family: sans-serif;
+}
+.footer{
+  background-color: BLACK;
+  height: 100px;
+  width: 100%;
+}
+.copyright{
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  padding: 50px 50px 30px 50px;
+}
+.copyright a:link{
+  color:white;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.copyright a:hover{
+  color:white;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.to-top{
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-family: sans-serif;
+  padding: 50px 50px 30px 50px;
+  margin: 0 0 0 800px;
+}
+.to-top a:link{
+  color:white;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.to-top a:hover{
+  color:white;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.more-content{
+  text-align: center;
+}
+.Topic{
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 2rem;
+  font-family: 'Piazzolla', serif;
+  width: 30%;
+  margin: 150px 0 150px 150px;
+
+}
+.direct{
+  display: inline-block;
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  width: 40%;
+  margin: 150px 0 150px 150px;
+}
+.Btn {
+  position: relative;
+	background-color:#d7385d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:19px 19px;
+	text-decoration:none;
+  margin: 50px;
+}
+.Btn:hover {
+	background-color:#d7385d;
+  text-decoration: underline;
+}
+.Btn:active {
+	position:relative;
+	top:1px;
+}
+.input{
+  width: 70%;
+  height:60px;
+}
